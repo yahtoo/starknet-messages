@@ -11,9 +11,16 @@ fn CHAIN_ID() -> felt252 {
   'SN_MAIN'
 }
 
+// fn DOMAIN() -> Domain {
+//   Domain {
+//     name: 'Rules',
+//     version: '1.1',
+//   }
+// }
+
 fn DOMAIN() -> Domain {
   Domain {
-    name: 'Rules',
-    version: '1.1',
+    name: 'Composable Hub',
+    version: 1,
   }
 }
